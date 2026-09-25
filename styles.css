@@ -1,0 +1,500 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #101828;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Hero Section */
+
+.hero {
+  padding: 70px 0;
+}
+
+.parent {
+  width: 76%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.child-1 {
+  width: 48%;
+}
+
+.child-1 h1 {
+  font-size: 55px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.child-1 p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #475467;
+  margin-bottom: 30px;
+}
+
+.child-2 {
+  width: 40%;
+}
+
+.child-2 img {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-start {
+  background-color: black;
+  color: white;
+
+  padding: 14px 25px;
+
+  border-radius: 8px;
+}
+
+.btn-learn {
+  color: #101828;
+
+  padding: 14px 25px;
+
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+/* Why Choose Us Section */
+
+.why {
+  padding: 60px 0;
+}
+
+.title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 16px;
+  color: #475467;
+  line-height: 1.6;
+}
+
+.features-container {
+  width: 76%;
+  margin: 50px auto;
+
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  width: 33.3%;
+
+  padding: 35px 25px;
+
+  text-align: center;
+
+  border-radius: 18px;
+}
+
+.card-blue {
+  background-color: #dceafe;
+}
+
+.card-green {
+  background-color: #e0f8eb;
+}
+
+.card-purple {
+  background-color: #f4e8ff;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+
+  margin: auto;
+
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-blue .icon-box {
+  background-color: #2563eb;
+}
+
+.card-green .icon-box {
+  background-color: #10b981;
+}
+
+.card-purple .icon-box {
+  background-color: #9333ea;
+}
+
+.inner-box {
+  width: 25px;
+  height: 25px;
+
+  background-color: white;
+
+  border-radius: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #475467;
+}
+
+.about-section {
+  width: 76%;
+  margin: 60px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 40px;
+}
+
+.image-box {
+  width: 48%;
+}
+
+.image-box img {
+  width: 100%;
+
+  border-radius: 15px;
+
+  object-fit: cover;
+}
+
+.content-box {
+  width: 45%;
+}
+
+.content-box h2 {
+  font-size: 30px;
+}
+
+.feature-item {
+  border-left: 4px solid black;
+
+  padding-left: 18px;
+
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  margin-bottom: 5px;
+}
+
+.feature-item p {
+  margin-top: 0;
+
+  color: #475467;
+
+  line-height: 1.5;
+}
+
+/* Testimonials Section */
+
+.reviews {
+  background-color: #f9fafb;
+
+  padding: 70px 0;
+}
+
+.review-container {
+  width: 76%;
+  margin: 50px auto;
+
+  display: flex;
+  gap: 25px;
+}
+
+.review-card {
+  width: 33.3%;
+
+  padding: 30px;
+
+  border-radius: 15px;
+}
+
+.review-blue {
+  background-color: #eaf2ff;
+}
+
+.review-green {
+  background-color: #e5faef;
+}
+
+.review-purple {
+  background-color: #f5eafa;
+}
+
+.person {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.person img {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.person h3 {
+  margin: 0;
+}
+
+.person p {
+  margin-top: 5px;
+
+  color: #475467;
+}
+
+blockquote {
+  margin: 25px 0 0;
+
+  color: #344054;
+
+  line-height: 1.7;
+}
+
+.stats {
+  width: 76%;
+  margin: auto;
+
+  padding: 35px;
+
+  background-color: #f2f4f7;
+
+  border-radius: 15px;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 30px;
+
+  margin: 0;
+}
+
+.stat p {
+  color: #475467;
+}
+
+/* Membership Form Section */
+
+.membership {
+  padding: 70px 0;
+}
+
+form {
+  width: 58%;
+
+  margin: 45px auto;
+
+  padding: 40px;
+
+  background-color: #f9fafb;
+
+  border-radius: 15px;
+}
+
+/* here in the names class I used gap to create space between the two divs and I also used width to make sure that they are equal in size and I also used display flex to make them appear side by side */
+
+.names {
+  display: flex;
+
+  gap: 25px;
+}
+
+.names div {
+  width: 50%;
+}
+
+label {
+  display: block;
+
+  margin-top: 20px;
+  margin-bottom: 8px;
+
+  font-weight: 500;
+}
+
+.names label {
+  margin-top: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+
+  padding: 16px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 16px;
+}
+
+textarea {
+  height: 110px;
+}
+
+form button {
+  width: 100%;
+
+  margin-top: 30px;
+
+  padding: 16px;
+
+  background-color: black;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 17px;
+}
+
+.form-text {
+  text-align: center;
+
+  color: #667085;
+
+  font-size: 13px;
+
+  margin-top: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #101828;
+
+  color: white;
+
+  padding: 65px 0 25px;
+}
+
+.footer-container {
+  width: 76%;
+
+  margin: auto;
+
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.footer-about {
+  width: 45%;
+}
+
+.footer-about p {
+  color: #98a2b3;
+
+  line-height: 1.7;
+}
+
+.social a {
+  color: #98a2b3;
+
+  margin-right: 20px;
+}
+
+.footer-links {
+  width: 20%;
+}
+
+.footer-links a {
+  display: block;
+
+  color: #98a2b3;
+
+  margin-bottom: 12px;
+}
+
+.footer-contact {
+  width: 25%;
+}
+
+.footer-contact h4 {
+  margin-bottom: 5px;
+}
+
+.footer-contact p {
+  color: #98a2b3;
+}
+
+.footer-contact a {
+  color: #98a2b3;
+}
+
+.copyright {
+  width: 76%;
+
+  margin: 50px auto 0;
+
+  padding-top: 20px;
+
+  border-top: 1px solid #344054;
+
+  color: #667085;
+}
